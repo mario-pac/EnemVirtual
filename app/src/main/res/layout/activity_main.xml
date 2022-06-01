@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="354dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mini Enem 2022"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Questão 1: Em um projeto para a construção de um cinema, os arquitetos estão avaliando a relação entre a quantidade de fileiras e a quantidade de cadeiras em cada fileira. O projeto inicial prevê uma sala para 304 pessoas. No caso de utilizarem 19 fileiras, o número de cadeiras por fileira será:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Questão 2: Carlos viajou com seu carro de Recife a Aracaju. Saiu de Recife, dirigiu durante 3 horas e 45 minutos e parou por 35 minutos para almoçar. Em seguida, dirigiu diretamente para Aracaju, tendo realizado o percurso total em 7 horas e 30 minutos.  A duração da segunda parte da viagem foi de:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Questão 3: Um caminhão com uma carga de 630 embalagens saiu da transportadora com uma ordem de transporte para distribuir 56% da carga para a loja A e 24% para a loja B. Quantas embalagens restaram no caminhão após a distribuição da mercadoria a essas duas lojas?"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Questão 4: Um Auxiliar de Serviços Gerais utilizou 9 litros de água para limpar 30m2 de parede. Quantos litros de água serão necessários para limpar 225m2 de parede, nas mesmas condições?"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/questao4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/a4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 79,5"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/b4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 67,5"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 55,5"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/d4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) 43,5"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Questão 5: Uma máquina produziu 40 parafusos dos quais 4 eram defeituosos. Retirando-se ao acaso, 3 parafusos dessa amostra, a probabilidade de que os 3 parafusos sejam defeituosos é de aproximadamente:"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/questao5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/a5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 0,04%"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/b5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 0,4%"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/c5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 4%"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/d5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) 40%"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Questão 6: Para o jantar comemorativo do aniversário de certa empresa, a equipe do restaurante preparou 18 mesas com 6 lugares cada uma e, na hora do jantar, 110 pessoas compareceram.  É correto afirmar que:"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/questao6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/a6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) se todos sentaram em mesas completas, uma ficou vazia"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/b6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) se 17 mesas foram completamente ocupadas, uma ficou com apenas 2 pessoas"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/c6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) duas pessoas não puderam sentar"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/d6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) todas as pessoas puderam ser acomodadas em menos de 17 mesas"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enviar respostas"
+                android:onClick="mostrarDados" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

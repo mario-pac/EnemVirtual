@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BonusEnem</string>
+
+    <string-array name="questao1">
+        <item>--selecione sua resposta--</item>
+        <item>a) 14</item>
+        <item>b) 15</item>
+        <item>c) 16</item>
+        <item>d) 13</item>
+    </string-array>
+
+    <string-array name="questao2">
+        <item>--selecione sua resposta--</item>
+        <item>a) 2h50min</item>
+        <item>b) 2h55min</item>
+        <item>c) 3h05min</item>
+        <item>d) 3h10min</item>
+    </string-array>
+
+    <string-array name="questao3">
+        <item>--selecione sua resposta--</item>
+        <item>a) 126</item>
+        <item>b) 150</item>
+        <item>c) 204</item>
+        <item>d) 224</item>
+    </string-array>
+</resources>
